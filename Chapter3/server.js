@@ -20,8 +20,8 @@ const app = express();
  res.send('$' + currentPrice.toFixed(1))
  });
 
- const PORT = 3000;
+ const port = 3000;
 
- app.listen(PORT, ()=>{
- console. log(`Server listening on port ${PORT}`);
+ app.listen(port, ()=>{
+ console. log(`Server listening on port ${port}`);
  });
