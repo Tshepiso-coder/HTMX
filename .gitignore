@@ -21,3 +21,12 @@ node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# custom resources to ignore
+/archive
+
+/ContactHub/venv-htmx/Lib
+
+/ContactHub/htmx-contacthub/contacts/S3_container.txt
+
+.gitignore
