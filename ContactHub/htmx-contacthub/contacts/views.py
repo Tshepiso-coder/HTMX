@@ -23,7 +23,7 @@ def index(request):
 def search_contacts(request):
     import time
     # time its in seconds
-    time.sleep(3)
+    time.sleep(1)
     query = request.GET.get('search', '')
 
     #use the query to filter contacts by name or email
